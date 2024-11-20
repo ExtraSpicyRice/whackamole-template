@@ -1,8 +1,5 @@
 import pygame
 import random
-
-# a comment
-# another comment
 def main():
     try:
         pygame.init()
@@ -36,7 +33,5 @@ def main():
             clock.tick(60)
     finally:
         pygame.quit()
-
-
 if __name__ == "__main__":
     main()
